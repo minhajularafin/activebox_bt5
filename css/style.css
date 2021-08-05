@@ -1,0 +1,132 @@
+@font-face{ 
+	font-family: 'Open Sans', sans-serif;;
+	 src:url(../fonts/opensans/OpenSans-Regular.ttf) 
+	}
+@font-face{ 
+	font-family: 'Open Sans', sans-serif;;
+	 src:url(../fonts/opensans/OpenSans-Bold.ttf) 
+	}
+@font-face{ 
+	font-family: 'Raleway', sans-serif;
+	 src:url(../fonts/raleway/Raleway-Light.ttf) 
+	}
+@font-face{ 
+	font-family: 'Raleway', sans-serif;
+	 src:url(../fonts/raleway/Raleway-Regular.ttf) 
+	}
+@font-face{ 
+	font-family: 'Raleway', sans-serif;
+	 src:url(../fonts/raleway/Raleway-SemiBold.ttf) 
+	}
+@font-face{ 
+	font-family: 'Raleway', sans-serif;
+	 src:url(../fonts/raleway/Raleway-Bold.ttf) 
+	}			
+@font-face{ 
+	font-family: 'Cardo', serif;
+	 src:url(../fonts/cardo/Cardo-Italic.ttf) 
+	}
+
+/*common code */
+body{
+	font-family : 'Raleway', sans-serif;   
+    font-size   : 16px;
+    font-weight : 700;
+    color       :#ffffff;
+}
+/*banner start*/
+
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-size: cover;
+}
+/*header start*/
+header{	
+	padding-top: 32px;	
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgba(255, 255, 255, .09) !important;
+}
+.menu{}
+.menu ul{}
+.menu ul li{}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+.menu ul li a{
+	margin-left : 58px;
+	font-family : 'Raleway', sans-serif;   
+    font-size   : 16px !important;
+    font-weight : 700;
+    color       : rgba(255, 255, 255, 0.75) !important;
+}
+.menu ul li a:hover{
+	color: #ffffff !important;
+}
+/*header end*/
+
+/*banner text start*/
+.b-text{
+	margin-top: 140px;
+}
+.b-text h1{
+	margin-bottom: 30px;
+	font-family: 'Open Sans', sans-serif;   
+    font-size   : 65px !important;
+    font-weight : 700;
+    text-transform: uppercase;
+}
+.b-text p{
+    margin: 0 20px;
+	font-family : 'Raleway', sans-serif;   
+    font-size   : 22px;
+    font-weight : 400;
+    color       :#ffffff;
+}
+.custom{
+	margin: 80px 0 150px 0;
+	padding: 15px 40px ;
+	font-size: 13px;
+	font-weight: 600;
+	color: #ffffff;
+	border: none;
+	border-radius: 0;
+	background-color: #e84545;
+	text-transform: uppercase;
+	transition: .3s;
+}
+.custom:hover{
+	color: #ffffff;
+	background-color: #CD3333;
+}
+.custom:focus{
+	box-shadow: none;
+}
+/*banner text end*/
+
+/*banner end*/
+
+/*feature start*/
+.feature{
+	padding: 100px 0 30px 0;
+}
+.f_single{
+	margin-bottom: 70px;
+}
+.f_single img{
+	margin-bottom: 25px;
+}
+.f_single h4{
+	margin-bottom: 15px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #2d3033;
+	word-spacing: 0;
+	text-transform: uppercase;
+}
+.f_single p{
+	margin: 0 35px;
+    font-size: 14px;
+    font-weight: 400;
+	color: #000;
+}
+/*feature end*/
